@@ -1,0 +1,94 @@
+/* SET THE MARGINS (margines) AROUND WEBSITE OR HAVE CONTROL OVER BOX OF WEBSITE! */
+body {margin: 10px;
+    
+
+/* SET THE PADDING (border around website) FOR DIFFERENT ARES EXAMPLE =20px - TOP, 50px - SIDES */
+    padding: 20px 50px;
+
+
+    /* MAKE YOU BACKGROUND AS IMAGE OR COLOUR */
+    background-image:url("bgimg1.jpg");
+    /* "BACKGROUND SIZE COVER" MAKE IMAGE COVER WHOLE WEBSITE; */
+    background-size: cover;
+    /* "BACKGROUND ATTACHMENT FIXED" MAKE IT FIXED TO ONE POSITION  */
+    background-attachment: fixed;
+    /* "OPACITY" MAKE BACKGROUND IMAGE TRANSPART SET IT WITH PROCENTAGE */
+    opacity: 50%;
+}
+
+/*             HERE IS THE COMMENT       */
+/*   <h1> Or <p> ARE    "TAG NAMES" */
+
+h1 {
+    color: rgb(20, 0, 118);
+    font-size: 60px;
+}
+
+/* TO USE NAV THAT WE DIFE WE NEED TO USE HASHTAG IN FRONT OF IT !*/
+
+#nav {
+    font-size: 30px;
+    color: green;
+    /* DISPLAY FLEX MAKES IT FLEXIBLE NO MATTER SIZE OF WEB WINDOW  */
+    display: flex;
+    /* JUSTIFY CONTENT IS POSITIONING  SECTION  THAT YOU CHOSE (IT WORKS HORIZONTAL)*/
+    justify-content: space-evenly;
+    /* POSITIONING CONTENT IN PRETICILUAR PLACE */
+    align-items:center;
+}
+
+/* IT MAKES CHANGES TO PRETICILUAR SECTION WHEN YOU PUT YOUR MOUSE OVER IT */
+#nav a:hover{
+    color: rgba(0, 111, 19, 0.989);
+}
+
+.pictures {
+    display: flex;
+    
+    align-items: center;
+    /* FLEI - REDEFINE DIRECTION IN WICH FLEX WORKS- IN COLUMN IN THIS EXMAPLE */
+    flex-direction: column;
+
+}
+
+/* TO USE CLASS WE DIFINED WE NEED TO PUT COMA IN FRON OF IT  */
+.pics {width: 600px;
+}
+
+.center {
+    text-align: center;
+    align-items:center;
+
+}
+
+.mainpic {
+    display: flex;
+    /* JUSTIFY CONTENT IS POSITIONING  SECTION  THAT YOU CHOSE */
+    justify-content: space-evenly;
+    /* POSITIONING CONTENT IN PRETICILUAR PLACE */
+    align-items:center;
+    }
+
+
+
+.txt {font-size: 25px;
+    /* SET THE FONT PRETICULAR TXT THAT YOU DEFINED AS CLASS BY USING "FONT-FAMILY: */
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.pics {
+    display: flex;
+    /* JUSTIFY CONTENT IS POSITIONING  SECTION  THAT YOU CHOSE */
+    justify-content: space-evenly;
+    /* POSITIONING CONTENT IN PRETICILUAR PLACE */
+    align-items:center;
+    }
+
+
+.title {
+    color: rgb(20, 0, 118);
+    font-size: 80px;
+    text-align: center;
+}
+
